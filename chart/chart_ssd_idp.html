@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+${http://interactive.unocha.org/2014_year_in_review/script/demo.css}
+		</style>
+        
+        	</head>
+	<body>
+
+
+		<script type="text/javascript">
+$(function () {
+    $('#container').highcharts({
+        chart: {
+            type: 'spline',
+			backgroundColor:'transparent'
+        },
+        title: {
+            text: ''
+        },
+        xAxis: {
+            type: 'datetime',
+			lineColor: '#026CB6',
+			tickInterval: 30 * 24 * 3600 * 1000,
+                min: Date.UTC(2013, 11, 15),
+                max: Date.UTC(2014, 02, 1),
+			tickLength: 0,
+            labels: {
+				format: '{value:%b \'%y}',
+				style: {
+                    fontSize: '12px',
+                    fontFamily: 'Open Sans, sans-serif',
+					color: '#FFF'
+                }
+			},
+            title: {
+                text: ''
+            }
+        },
+        yAxis: {
+			gridLineColor: '#026CB6',
+			gridLineDashStyle: 'dot',
+			labels: {
+				style: {
+                    fontSize: '12px',
+                    fontFamily: 'Open Sans, sans-serif',
+					color: '#026CB6'
+                }
+			},
+            title: {
+                text: ''
+            },
+            min: 0
+        },
+        tooltip: {
+            headerFormat: '',
+			labels: {
+				style: {
+                    fontFamily: 'Open Sans, sans-serif'
+                }
+			},
+            pointFormat: '<b>{point.x:%d %b \'%y}</b><br>{point.y:,.0f} displaced people'
+        },
+		
+		plotOptions: {
+            series: {
+				lineWidth: 5,
+                marker: {
+                    fillColor: '#026CB6',
+                    lineWidth: 2,
+                    lineColor: null, // inherit from series
+					radius: 6
+                }
+            }
+        },
+		
+
+        series: [{
+			showInLegend: false,
+            name: 'Number of people who fled their home',
+            // Define the data points. All series have a dummy year
+            // of 1970/71 in order to be compared on the same x axis. Note
+            // that in JavaScript, months start at 0 for January, 1 for February etc.
+            color: '#ffffff',
+			data: [
+                [Date.UTC(2013, 11, 15), 34000],
+                [Date.UTC(2013, 11, 23), 81000],
+                [Date.UTC(2014, 0, 1), 194000],
+                [Date.UTC(2014, 0, 7), 233000],
+                [Date.UTC(2014, 0, 15), 552000],
+                [Date.UTC(2014, 0, 23), 687000],
+                [Date.UTC(2014, 1, 1), 862000],
+                [Date.UTC(2014, 1, 6), 868000],
+                [Date.UTC(2014, 1, 15), 858000],
+                [Date.UTC(2014, 1, 20), 884000],
+                [Date.UTC(2014, 2, 1), 885000]
+            ]
+        }]
+    });
+});
+</script>
+<script src="http://interactive.unocha.org/2014_year_in_review/scripts/highcharts.js"></script>
+<script src="http://interactive.unocha.org/2014_year_in_review/scripts/exporting.js"></script>
+
+<div id="container" style="min-width: 100%; height: 100%; margin: 0 auto"></div>
+
+	</body>
+</html>

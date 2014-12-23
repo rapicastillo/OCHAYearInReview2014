@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+${http://interactive.unocha.org/2014_year_in_review/script/demo.css}
+		</style>
+        
+        	</head>
+	<body>
+
+
+		<script type="text/javascript">
+$(function () {
+    $('#container').highcharts({
+        chart: {
+            type: 'spline',
+			backgroundColor:'transparent'
+        },
+        title: {
+            text: ''
+        },
+        xAxis: {
+            type: 'datetime',
+			lineColor: '#1CACE3',
+			tickInterval: 30 * 24 * 3600 * 1000,
+                min: Date.UTC(2014, 7, 28),
+                max: Date.UTC(2014, 11, 31),
+			tickLength: 0,
+            labels: {
+				format: '{value:%b \'%y}',
+				style: {
+                    fontSize: '12px',
+                    fontFamily: 'Open Sans, sans-serif',
+					color: '#FFF'
+                }
+			},
+            title: {
+                text: ''
+            }
+        },
+        yAxis: {
+			gridLineColor: '#1CACE3',
+			gridLineDashStyle: 'dot',
+			labels: {
+				style: {
+                    fontSize: '12px',
+                    fontFamily: 'Open Sans, sans-serif',
+					color: '#1CACE3'
+                }
+			},
+            title: {
+                text: ''
+            },
+            min: 0
+        },
+        tooltip: {
+            headerFormat: '',
+			labels: {
+				style: {
+                    fontFamily: 'Open Sans, sans-serif'
+                }
+			},
+            pointFormat: '<b>{point.x:%d %b \'%y}</b><br>{point.y:,.0f} cases'
+        },
+		
+		plotOptions: {
+            series: {
+				lineWidth: 5,
+                marker: {
+                    fillColor: '#1CACE3',
+                    lineWidth: 2,
+                    lineColor: null, // inherit from series
+					radius: 6
+                }
+            }
+        },
+		
+
+        series: [{
+			showInLegend: false,
+            name: 'Number of people who fled their home',
+            // Define the data points. All series have a dummy year
+            // of 1970/71 in order to be compared on the same x axis. Note
+            // that in JavaScript, months start at 0 for January, 1 for February etc.
+            color: '#ffffff',
+			data: [
+                [Date.UTC(2014, 7, 29), 1553],
+                [Date.UTC(2014, 8, 5), 2105],
+                [Date.UTC(2014, 8, 8), 2296],
+                [Date.UTC(2014, 8, 12), 2226],
+                [Date.UTC(2014, 8, 16), 2461],
+                [Date.UTC(2014, 8, 18), 2630],
+                [Date.UTC(2014, 8, 22), 2811],
+                [Date.UTC(2014, 8, 24), 2917],
+                [Date.UTC(2014, 8, 26), 3091],
+                [Date.UTC(2014, 9, 1), 3338],
+                [Date.UTC(2014, 9, 3), 3439],
+				[Date.UTC(2014, 9, 8), 3865],
+				[Date.UTC(2014, 9, 10), 4032],
+				[Date.UTC(2014, 9, 15), 4493],
+				[Date.UTC(2014, 9, 17), 4555],
+				[Date.UTC(2014, 9, 22), 4877],
+				[Date.UTC(2014, 9, 25), 4922],
+				[Date.UTC(2014, 9, 29), 4920],
+				[Date.UTC(2014, 9, 31), 4951],
+				[Date.UTC(2014, 10, 5), 4818],
+				[Date.UTC(2014, 10, 7), 4960],
+				[Date.UTC(2014, 10, 12), 5160],
+				[Date.UTC(2014, 10, 14), 5177],
+				[Date.UTC(2014, 10, 19), 5420],
+				[Date.UTC(2014, 10, 21), 5459],
+				[Date.UTC(2014, 10, 26), 5689],
+				[Date.UTC(2014, 11, 1), 6002],
+				[Date.UTC(2014, 11, 3), 6070],
+				[Date.UTC(2014, 11, 10), 6388]
+            ]
+        }]
+    });
+});
+</script>
+<script src="http://interactive.unocha.org/2014_year_in_review/scripts/highcharts.js"></script>
+<script src="http://interactive.unocha.org/2014_year_in_review/scripts/exporting.js"></script>
+
+<div id="container" style="min-width: 100%; height: 100%; margin: 0 auto"></div>
+
+	</body>
+</html>

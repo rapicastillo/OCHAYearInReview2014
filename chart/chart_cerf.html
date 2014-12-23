@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+${http://interactive.unocha.org/2014_year_in_review/script/demo.css}
+		</style>
+        
+        	</head>
+	<body>
+
+
+		<script type="text/javascript">
+$(function () {
+    $('#container').highcharts({
+        chart: {
+            type: 'spline',
+			backgroundColor:'transparent'
+        },
+        title: {
+            text: ''
+        },
+        xAxis: {
+            type: 'datetime',
+			lineColor: '#CC3333',
+			minTickInterval: 12* 30 * 24 * 3600 * 1000,
+			tickLength: 0,
+            labels: {
+				format: '{value:%Y}',
+				style: {
+                    fontSize: '12px',
+                    fontFamily: 'Open Sans, sans-serif',
+					color: '#FFF'
+                }
+			},
+            title: {
+                text: ''
+            }
+        },
+        yAxis: {
+			gridLineColor: '#CC3333',
+			gridLineDashStyle: 'dot',
+			labels: {
+				style: {
+                    fontSize: '12px',
+                    fontFamily: 'Open Sans, sans-serif',
+					color: '#CC3333'
+                }
+			},
+            title: {
+                text: ''
+            },
+            min: 0
+        },
+        tooltip: {
+            headerFormat: '',
+			labels: {
+				style: {
+                    fontFamily: 'Open Sans, sans-serif'
+                }
+			},
+            pointFormat: '<b>{point.x:%Y}</b><br>{point.y:,.0f}M'
+        },
+		
+		plotOptions: {
+            series: {
+				lineWidth: 5,
+                marker: {
+                    fillColor: '#FF4F33',
+                    lineWidth: 2,
+                    lineColor: null, // inherit from series
+					radius: 6
+                }
+            }
+        },
+		
+
+        series: [{
+			showInLegend: false,
+            name: 'Number of people who fled their home',
+            // Define the data points. All series have a dummy year
+            // of 1970/71 in order to be compared on the same x axis. Note
+            // that in JavaScript, months start at 0 for January, 1 for February etc.
+            color: '#ffffff',
+			data: [
+                [Date.UTC(2006, 11, 31), 77],
+                [Date.UTC(2007, 11, 31), 123],
+                [Date.UTC(2008, 11, 31), 128],
+                [Date.UTC(2009, 11, 31), 129],
+                [Date.UTC(2010, 11, 31), 139],
+                [Date.UTC(2011, 11, 31), 143],
+                [Date.UTC(2012, 11, 31), 158],
+                [Date.UTC(2013, 11, 31), 174],
+                [Date.UTC(2014, 11, 31), 170]
+            ]
+        }]
+    });
+});
+</script>
+<script src="http://interactive.unocha.org/2014_year_in_review/scripts/highcharts.js"></script>
+<script src="http://interactive.unocha.org/2014_year_in_review/scripts/exporting.js"></script>
+
+<div id="container" style="min-width: 100%; height: 100%; margin: 0 auto"></div>
+
+	</body>
+</html>

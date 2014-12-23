@@ -1,0 +1,177 @@
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" ftp_hostname="ftp://interactive.unocha.org" ftp_rootfolder="/2014_year_in_review" exportTarget="FTP" resolutions="1x" timestamp="1419366454523">
+  <folder name="css">
+    <file name="site_global.css" crc="391716782"/>
+    <file name="index.css" crc="393379143" ref="index"/>
+    <file name="iefonts_index.css" crc="4025960215" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <folder name="opt_fatalities">
+      <folder name="edge_includes">
+        <file name="edge.5.0.1.min.js" crc="3758894637" mt="1419288405000"/>
+      </folder>
+      <folder name="images">
+        <file name="Poster.png" crc="4142290735" mt="1419288405000"/>
+        <file name="backward.svg" crc="95282969" mt="1419288405000"/>
+        <file name="forward.svg" crc="146089218" mt="1419288405000"/>
+        <file name="oPt_graph_background3.svg" crc="4141022430" mt="1419288405000"/>
+        <file name="oPt_graph_bar7.svg" crc="326329517" mt="1419288405000"/>
+        <file name="oPt_graph_blast.svg" crc="221561671" mt="1419288405000"/>
+        <file name="oPt_graph_bomb.svg" crc="3969135478" mt="1419288405000"/>
+        <file name="pie_background3.svg" crc="142528028" mt="1419288405000"/>
+        <file name="pie_civilians2.svg" crc="178933448" mt="1419288405000"/>
+        <file name="pie_gender2.svg" crc="521153190" mt="1419288405000"/>
+        <file name="pie_unknow2.svg" crc="427063175" mt="1419288405000"/>
+      </folder>
+      <file name="oPt_fatalities_edge.js" crc="4237496902" mt="1419288405000"/>
+      <file name="oPt_fatalities.html" crc="433049110" mt="1419288405000"/>
+    </folder>
+    <folder name="phl_map">
+      <folder name="edge_includes">
+        <file name="edge.5.0.1.min.js" crc="3758894637" mt="1419284333000"/>
+      </folder>
+      <folder name="images">
+        <file name="Poster.png" crc="4249459397" mt="1419284333000"/>
+        <file name="map_PHL_track.svg" crc="482281220" mt="1419284333000"/>
+        <file name="PHL_countries.svg" crc="4014875633" mt="1419284333000"/>
+        <file name="PHL_path.svg" crc="4150174271" mt="1419284333000"/>
+        <file name="Thumbs.db" crc="300417196" mt="1419284333000"/>
+      </folder>
+      <file name="phl_map_edge.js" crc="290808583" mt="1419284333000"/>
+      <file name="phl_map.html" crc="4096530305" mt="1419284333000"/>
+    </folder>
+    <folder name="whd_map">
+      <folder name="edge_includes">
+        <file name="edge.5.0.1.min.js" crc="3758894637" mt="1419279622000"/>
+      </folder>
+      <folder name="images">
+        <file name="Poster.png" crc="113999583" mt="1419279622000"/>
+        <file name="airplane2.svg" crc="3886750291" mt="1419279622000"/>
+        <file name="marker_darkblue.svg" crc="3832289428" mt="1419279622000"/>
+        <file name="marker_green3.svg" crc="4132047427" mt="1419279622000"/>
+        <file name="marker_red3.svg" crc="3891359299" mt="1419279622000"/>
+        <file name="Thumbs.db" crc="226625922" mt="1419279622000"/>
+        <file name="whs_logo.svg" crc="3928154323" mt="1419279622000"/>
+        <file name="world2.svg" crc="213476878" mt="1419279622000"/>
+      </folder>
+      <file name="whd_map_edge.js" crc="4069372099" mt="1419279622000"/>
+      <file name="whd_map.html" crc="4189131548" mt="1419279622000"/>
+    </folder>
+    <folder name="whd_graph">
+      <folder name="edge_includes">
+        <file name="edge.5.0.1.min.js" crc="3758894637" mt="1419279258000"/>
+      </folder>
+      <folder name="images">
+        <file name="Poster.png" crc="468879864" mt="1419279258000"/>
+        <file name="Thumbs.db" crc="234051088" mt="1419279258000"/>
+        <file name="victims4.svg" crc="4139676367" mt="1419279258000"/>
+      </folder>
+      <file name="whd_graph_edge.js" crc="335087139" mt="1419279258000"/>
+      <file name="whd_graph.html" crc="311035663" mt="1419279258000"/>
+    </folder>
+    <folder name="myr_animation">
+      <folder name="edge_includes">
+        <file name="edge.5.0.1.min.js" crc="3758894637" mt="1418761391000"/>
+      </folder>
+      <folder name="images">
+        <file name="Poster.png" crc="4011518153" mt="1418761391000"/>
+        <file name="Poster2.png" crc="266941146" mt="1418761391000"/>
+        <file name="assessment_desk.svg" crc="4106243841" mt="1418761391000"/>
+        <file name="assessment_food.svg" crc="3774258644" mt="1418761391000"/>
+        <file name="assessment_graph.svg" crc="4218217528" mt="1418761391000"/>
+        <file name="assessment_health.svg" crc="439439149" mt="1418761391000"/>
+        <file name="assessment_shelter.svg" crc="405381787" mt="1418761391000"/>
+        <file name="assessment_water.svg" crc="4211106663" mt="1418761391000"/>
+        <file name="delivery_camp6.svg" crc="4079189554" mt="1418761391000"/>
+        <file name="delivery_truck3.svg" crc="380861655" mt="1418761391000"/>
+        <file name="negotiation_back.svg" crc="3945812664" mt="1418761391000"/>
+        <file name="negotiation_bubble.svg" crc="345522963" mt="1418761391000"/>
+        <file name="negotiation_hand.svg" crc="4221290950" mt="1418761391000"/>
+      </folder>
+      <file name="myr_animation_edge.js" crc="415519875" mt="1418761391000"/>
+      <file name="myr_animation.html" crc="198850155" mt="1418761391000"/>
+    </folder>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4164521501" ref="index"/>
+    <file name="museutils.js" crc="3777594392" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4259541792" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="117544926" ref="index"/>
+    <file name="jquery.watch.js" crc="4144919381" ref="index"/>
+    <file name="jquery.musemenu.js" crc="415733523" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="img_ssd_20140404_wfp-giulio_dadamo.jpg" crc="3827851051" ref="index"/>
+    <file name="title_intro2.svg" crc="4194540287" ref="index"/>
+    <file name="title_intro2_poster_.png" crc="3948738314" ref="index"/>
+    <file name="button_scroll.svg" crc="101785305" ref="index"/>
+    <file name="button_scroll_poster_u2697.png" crc="3905306493" ref="index"/>
+    <file name="button_scroll_blue.svg" crc="435631808" ref="index"/>
+    <file name="button_scroll_blue_poster_u2705.png" crc="43184199" ref="index"/>
+    <file name="icon_coordination.svg" crc="93587261" ref="index"/>
+    <file name="icon_coordination_poster_u3087.png" crc="3849636202" ref="index"/>
+    <file name="icon_advocacy.svg" crc="4211871182" ref="index"/>
+    <file name="icon_advocacy_poster_u3074.png" crc="2308413" ref="index"/>
+    <file name="icon_info-manage.svg" crc="469818414" ref="index"/>
+    <file name="icon_info-manage_poster_u3084.png" crc="370824822" ref="index"/>
+    <file name="icon_financing.svg" crc="4044732740" ref="index"/>
+    <file name="icon_financing_poster_u3081.png" crc="317815763" ref="index"/>
+    <file name="icon_policy.svg" crc="4270833182" ref="index"/>
+    <file name="icon_policy_poster_u3077.png" crc="532637762" ref="index"/>
+    <file name="img_ssd_sky.jpg" crc="339867699" ref="index"/>
+    <file name="map.jpg" crc="3836836585" ref="index"/>
+    <file name="img_car.jpg" crc="3827505931" ref="index"/>
+    <file name="u3128.png" crc="361439873" ref="index"/>
+    <file name="u3128-r.png" crc="4170063147" ref="index"/>
+    <file name="theme_effectiveness.svg" crc="4273222404" ref="index"/>
+    <file name="theme_effectiveness_poster_.png" crc="3948543719" ref="index"/>
+    <file name="theme_risk.svg" crc="4260488377" ref="index"/>
+    <file name="theme_risk_poster_.png" crc="4041201742" ref="index"/>
+    <file name="theme_innovation.svg" crc="4266755768" ref="index"/>
+    <file name="theme_innovation_poster_.png" crc="536015831" ref="index"/>
+    <file name="theme_conflict.svg" crc="249202254" ref="index"/>
+    <file name="theme_conflict_poster_.png" crc="3782423101" ref="index"/>
+    <file name="img_irq_camp_night_ocha_iason-athanasiadis.jpg" crc="4192112172" ref="index"/>
+    <file name="img_valerie.png" crc="425243698" ref="index"/>
+    <file name="whd_background.jpg" crc="172775851" ref="index"/>
+    <file name="img_ocha_tweet_account.jpg" crc="515944883" ref="index"/>
+    <file name="bubble_marker.svg" crc="4037696847" ref="index"/>
+    <file name="bubble_marker_poster_.png" crc="486150444" ref="index"/>
+    <file name="twitter.svg" crc="4080359363" ref="index"/>
+    <file name="twitter_poster_.png" crc="4264808439" ref="index"/>
+    <file name="screen.svg" crc="36934231" ref="index"/>
+    <file name="screen_poster_.png" crc="4148650085" ref="index"/>
+    <file name="globe.svg" crc="3986534585" ref="index"/>
+    <file name="globe_poster_.png" crc="4057925915" ref="index"/>
+    <file name="moh-u3389.png" crc="4225221610" ref="index"/>
+    <file name="moh-u3389-r.png" crc="3860503070" ref="index"/>
+    <file name="img_syr_unhcr_m_hofer.jpg" crc="229852158" ref="index"/>
+    <file name="ebola_background.png" crc="3934588210" ref="index"/>
+    <file name="cerf_grant_background.svg" crc="3947384535" ref="index"/>
+    <file name="cerf_grant_background_poster_.png" crc="3921209712" ref="index"/>
+    <file name="cerf_grant_bubble.svg" crc="4126653237" ref="index"/>
+    <file name="cerf_grant_bubble_poster_.png" crc="472934768" ref="index"/>
+    <file name="funding_green.svg" crc="498611817" ref="index"/>
+    <file name="funding_green_poster_.png" crc="66631798" ref="index"/>
+    <file name="country_green.svg" crc="4274247894" ref="index"/>
+    <file name="country_green_poster_.png" crc="177497301" ref="index"/>
+    <file name="img_irq_ocha_iason_athanasiadis.jpg" crc="300692549" ref="index"/>
+    <file name="funding.svg" crc="3903040364" ref="index"/>
+    <file name="funding_poster_.png" crc="77496401" ref="index"/>
+    <file name="people.svg" crc="4091699497" ref="index"/>
+    <file name="people_poster_.png" crc="287061322" ref="index"/>
+    <file name="country.svg" crc="4184670732" ref="index"/>
+    <file name="country_poster_.png" crc="345203892" ref="index"/>
+    <file name="u3121.png" crc="3954436567" ref="index"/>
+    <file name="u3121-r.png" crc="4179026003" ref="index"/>
+    <file name="ocha_logo_vert.svg" crc="359862141" ref="index"/>
+    <file name="ocha_logo_vert_poster_.png" crc="4157136826" ref="index"/>
+    <file name="twitter.png" crc="164754977" ref="index"/>
+    <file name="facebook.png" crc="4240221469" ref="index"/>
+    <file name="google-.png" crc="140508821" ref="index"/>
+    <file name="pintrest.png" crc="77654099" ref="index"/>
+    <file name="youtube.png" crc="4224971256" ref="index"/>
+  </folder>
+  <file name="index.html" crc="144989316" mt="1419366434224" redirect="true"/>
+</manifest>
