@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #000017;
-	background-color: #727D47;
+	color: #000004;
+	background-color: #C3665A;
 }
 
 .html
@@ -133,10 +133,10 @@
 	width: 165px;
 	min-height: 28px;
 	background-color: transparent;
-	line-height: 22px;
+	text-align: center;
 	color: #FFFFFF;
 	font-size: 18px;
-	text-align: center;
+	line-height: 22px;
 	position: relative;
 }
 
@@ -1320,7 +1320,7 @@
 	margin-top: 25px;
 }
 
-#U3493_animation
+#U3522_animation
 {
 	width: 980px;
 	height: 560px;
@@ -3178,9 +3178,9 @@
 	background-color: transparent;
 	color: #FFFFFF;
 	font-size: 10px;
-	line-height: 12px;
-	text-indent: 5px;
 	text-align: left;
+	text-indent: 5px;
+	line-height: 12px;
 	font-family: open-sans, sans-serif;
 	font-weight: 700;
 	position: relative;
@@ -3252,9 +3252,9 @@
 	background-color: transparent;
 	color: #FFFFFF;
 	font-size: 10px;
-	line-height: 12px;
-	text-indent: 5px;
 	text-align: left;
+	text-indent: 5px;
+	line-height: 12px;
 	font-family: open-sans, sans-serif;
 	font-weight: 700;
 	position: relative;
@@ -3326,9 +3326,9 @@
 	background-color: transparent;
 	color: #FFFFFF;
 	font-size: 10px;
-	line-height: 12px;
-	text-indent: 5px;
 	text-align: left;
+	text-indent: 5px;
+	line-height: 12px;
 	font-family: open-sans, sans-serif;
 	font-weight: 700;
 	position: relative;
@@ -3400,9 +3400,9 @@
 	background-color: transparent;
 	color: #FFFFFF;
 	font-size: 10px;
-	line-height: 12px;
-	text-indent: 5px;
 	text-align: left;
+	text-indent: 5px;
+	line-height: 12px;
 	font-family: open-sans, sans-serif;
 	font-weight: 700;
 	position: relative;
@@ -3474,9 +3474,9 @@
 	background-color: transparent;
 	color: #FFFFFF;
 	font-size: 10px;
-	line-height: 12px;
-	text-indent: 5px;
 	text-align: left;
+	text-indent: 5px;
+	line-height: 12px;
 	font-family: open-sans, sans-serif;
 	font-weight: 700;
 	position: relative;
@@ -3548,9 +3548,9 @@
 	background-color: transparent;
 	color: #FFFFFF;
 	font-size: 10px;
-	line-height: 12px;
-	text-indent: 5px;
 	text-align: left;
+	text-indent: 5px;
+	line-height: 12px;
 	font-family: open-sans, sans-serif;
 	font-weight: 700;
 	position: relative;
@@ -3622,9 +3622,9 @@
 	background-color: transparent;
 	color: #FFFFFF;
 	font-size: 10px;
-	line-height: 12px;
-	text-indent: 5px;
 	text-align: left;
+	text-indent: 5px;
+	line-height: 12px;
 	font-family: open-sans, sans-serif;
 	font-weight: 700;
 	position: relative;
@@ -3696,9 +3696,9 @@
 	background-color: transparent;
 	color: #FFFFFF;
 	font-size: 10px;
-	line-height: 12px;
-	text-indent: 5px;
 	text-align: left;
+	text-indent: 5px;
+	line-height: 12px;
 	font-family: open-sans, sans-serif;
 	font-weight: 700;
 	position: relative;
@@ -3770,9 +3770,9 @@
 	background-color: transparent;
 	color: #FFFFFF;
 	font-size: 10px;
-	line-height: 12px;
-	text-indent: 5px;
 	text-align: left;
+	text-indent: 5px;
+	line-height: 12px;
 	font-family: open-sans, sans-serif;
 	font-weight: 700;
 	position: relative;
@@ -3844,9 +3844,9 @@
 	background-color: transparent;
 	color: #FFFFFF;
 	font-size: 10px;
-	line-height: 12px;
-	text-indent: 5px;
 	text-align: left;
+	text-indent: 5px;
+	line-height: 12px;
 	font-family: open-sans, sans-serif;
 	font-weight: 700;
 	position: relative;
@@ -3918,9 +3918,9 @@
 	background-color: transparent;
 	color: #FFFFFF;
 	font-size: 10px;
-	line-height: 12px;
-	text-indent: 5px;
 	text-align: left;
+	text-indent: 5px;
+	line-height: 12px;
 	font-family: open-sans, sans-serif;
 	font-weight: 700;
 	position: relative;
@@ -4014,9 +4014,9 @@
 	background-color: transparent;
 	color: #FFFFFF;
 	font-size: 10px;
-	line-height: 12px;
-	text-indent: 5px;
 	text-align: left;
+	text-indent: 5px;
+	line-height: 12px;
 	font-family: open-sans, sans-serif;
 	font-weight: 700;
 	position: relative;

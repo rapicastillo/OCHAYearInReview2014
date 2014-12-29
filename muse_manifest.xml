@@ -1,7 +1,7 @@
-<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" ftp_hostname="ftp://interactive.unocha.org" ftp_rootfolder="/2014_year_in_review" exportTarget="FTP" resolutions="1x" timestamp="1419366454523">
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" ftp_hostname="ftp://interactive.unocha.org" ftp_rootfolder="/2014_year_in_review" exportTarget="FTP" resolutions="1x" timestamp="1419864937571">
   <folder name="css">
     <file name="site_global.css" crc="391716782"/>
-    <file name="index.css" crc="393379143" ref="index"/>
+    <file name="index.css" crc="79914586" ref="index"/>
     <file name="iefonts_index.css" crc="4025960215" ref="index"/>
   </folder>
   <folder name="assets">
@@ -41,20 +41,20 @@
     </folder>
     <folder name="whd_map">
       <folder name="edge_includes">
-        <file name="edge.5.0.1.min.js" crc="3758894637" mt="1419279622000"/>
+        <file name="edge.5.0.1.min.js" crc="3758894637" mt="1419864521000"/>
       </folder>
       <folder name="images">
-        <file name="Poster.png" crc="113999583" mt="1419279622000"/>
-        <file name="airplane2.svg" crc="3886750291" mt="1419279622000"/>
-        <file name="marker_darkblue.svg" crc="3832289428" mt="1419279622000"/>
-        <file name="marker_green3.svg" crc="4132047427" mt="1419279622000"/>
-        <file name="marker_red3.svg" crc="3891359299" mt="1419279622000"/>
-        <file name="Thumbs.db" crc="226625922" mt="1419279622000"/>
-        <file name="whs_logo.svg" crc="3928154323" mt="1419279622000"/>
-        <file name="world2.svg" crc="213476878" mt="1419279622000"/>
+        <file name="Poster.png" crc="113999583" mt="1419864521000"/>
+        <file name="airplane2.svg" crc="3886750291" mt="1419864521000"/>
+        <file name="marker_darkblue.svg" crc="3832289428" mt="1419864521000"/>
+        <file name="marker_green3.svg" crc="4132047427" mt="1419864521000"/>
+        <file name="marker_red3.svg" crc="3891359299" mt="1419864521000"/>
+        <file name="Thumbs.db" crc="226625922" mt="1419864521000"/>
+        <file name="whs_logo.svg" crc="3928154323" mt="1419864521000"/>
+        <file name="world2.svg" crc="213476878" mt="1419864521000"/>
       </folder>
-      <file name="whd_map_edge.js" crc="4069372099" mt="1419279622000"/>
-      <file name="whd_map.html" crc="4189131548" mt="1419279622000"/>
+      <file name="whd_map_edge.js" crc="276610222" mt="1419864521000"/>
+      <file name="whd_map.html" crc="4189131548" mt="1419864521000"/>
     </folder>
     <folder name="whd_graph">
       <folder name="edge_includes">
@@ -173,5 +173,5 @@
     <file name="pintrest.png" crc="77654099" ref="index"/>
     <file name="youtube.png" crc="4224971256" ref="index"/>
   </folder>
-  <file name="index.html" crc="144989316" mt="1419366434224" redirect="true"/>
+  <file name="index.html" crc="112553648" mt="1419864914602" redirect="true"/>
 </manifest>
